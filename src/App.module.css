@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 100px;
+  border: 1px solid black;
+  color:white;
+  z-index: 1000;
+  border-radius:10px;
+  background-repeat: no-repeat;
+  gap: 20px;
+  background-size: cover;
+  background-image: url(./assets/beautiful-blurred-boreal-forest-background-260nw-2296762397.webp);
+}
+.textone{
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: cursive;
+
+}
+.textthree{
+  font-size: 25px;
+  font-family: cursive;
+  }
+
+.bgdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.btn button{
+ margin-left: 10px;
+}
+.btnbutton{
+  width: 170px;
+  border:none;
+  border-radius:5px;
+  cursor: pointer;
+  transition: all 1.0s;
+  color:white;
+  background: blue;
+  height: 40px;
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.btnbutton:hover{
+  background: rgb(4, 4, 161);
+  transform: scale(1.3);
+}
+
+.btn{
+  background: blue;
+  color:white;
+  cursor: pointer;
+  border:none;
+  padding: 10px 15px;
+  border-radius:10px;
+  transition: all 0.5s;
+  margin-top: 20px;
+  justify-content: start;
+}
+.btn:hover{
+  background: rgb(6, 6, 212);
+  transform: scale(1.2);
+}
